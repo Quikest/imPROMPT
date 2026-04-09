@@ -137,7 +137,7 @@ export default function Page() {
       {/* Spotify playlist */}
       <div className="flex justify-center px-6 py-8">
         <iframe
-          src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M?utm_source=generator&theme=0"
+          src="https://open.spotify.com/embed/playlist/37i9dQZF1DWVinJBuv0P4z?utm_source=generator&theme=0"
           width="100%"
           height="352"
           style={{ maxWidth: 600, borderRadius: 12 }}
