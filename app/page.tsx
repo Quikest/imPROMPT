@@ -129,9 +129,21 @@ export default function Page() {
 
         {/* Date and time */}
         <div className="flex flex-col items-center gap-1 text-lg tracking-[0.2em] text-foreground sm:text-xl">
-          <span>&#9655; WEDNESDAY &nbsp; 04.08 &#9665;</span>
-          <span>&#9655; 7:00 PM &#9665;</span>
+          <span>&#9655; WEDNESDAY &nbsp; 07.00 &#9665;</span>
+          <span>&#9655; 9:00 PM &#9665;</span>
         </div>
+      </div>
+
+      {/* Spotify playlist */}
+      <div className="flex justify-center px-6 py-8">
+        <iframe
+          src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M?utm_source=generator&theme=0"
+          width="100%"
+          height="352"
+          style={{ maxWidth: 600, borderRadius: 12 }}
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        />
       </div>
 
       {/* Venue section */}
